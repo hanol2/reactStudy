@@ -29,7 +29,23 @@ function App() {
   return (
     <div>
       <Header />
-      <Concepts items={concepts} />
+      <ul id="concepts">
+        <Concepts
+          image={concepts[0].image}
+          title={concepts[0].title}
+          description={concepts[0].description}
+        />
+        <Concepts
+          image={concepts[1].image}
+          title={concepts[1].title}
+          description={concepts[1].description}
+        />
+        <Concepts
+          image={concepts[2].image}
+          title={concepts[2].title}
+          description={concepts[2].description}
+        />
+      </ul>
     </div>
   );
 }

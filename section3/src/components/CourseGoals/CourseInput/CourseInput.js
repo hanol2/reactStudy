@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 
 import Button from "../../UI/Button/Button";
 // import styles from "./CourseInput.module";

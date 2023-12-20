@@ -1,4 +1,5 @@
-import react from "react";
+import React from "react";
+
 import ExpenseItem from "./ExpenseItem";
 import "./ExpensesList.css";
 
@@ -20,4 +21,5 @@ const ExpensesList = (props) => {
     </ul>
   );
 };
+
 export default ExpensesList;
